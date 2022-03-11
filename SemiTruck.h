@@ -3,6 +3,6 @@
 
 struct SemiTruck : public Vehicle
 {
-
+    Semitruck(const std::string& n);
 };
 

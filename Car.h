@@ -4,7 +4,7 @@
 
 struct Car : public Vehicle
 {
-    Car(const std::string& s);
+    Car(const std::string& n);
     void closeWindows();
 
     void tryToEvade();

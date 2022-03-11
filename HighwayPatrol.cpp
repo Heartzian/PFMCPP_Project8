@@ -1,11 +1,10 @@
 #include "HighwayPatrol.h"
+#include "Highway.h"
+#include "Vehicle.h"
 #include <iostream>
 #include <cassert>
 
-HighwayPatrol::HighwayPatrol() : Vehicle("HighwayPatrol")
-{
-
-}
+HighwayPatrol::HighwayPatrol(const std::string& n) : Vehicle(n) {}
 
 void HighwayPatrol::scanHighway(Highway* h)
 {
