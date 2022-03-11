@@ -164,8 +164,8 @@ int main()
     }
     
     
-    HighwayPatrol* cop = nullptr;
-    cop->scanHighway(&highway);
+    HighwayPatrol cop;
+    cop.scanHighway(&highway);
 
     std::cout << "done" << std::endl;
 

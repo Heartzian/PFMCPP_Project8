@@ -5,7 +5,7 @@
 
 struct HighwayPatrol : public Vehicle 
 {
-    HighwayPatrol(const std::string& n);
+    HighwayPatrol();
     void scanHighway(Highway* h);
     void pullOver( Vehicle* v, bool willArrest, Highway* h );
 };
