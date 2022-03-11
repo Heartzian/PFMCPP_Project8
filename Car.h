@@ -6,6 +6,5 @@ struct Car : public Vehicle
 {
     Car(const std::string& n);
     void closeWindows();
-
     void tryToEvade();
 };

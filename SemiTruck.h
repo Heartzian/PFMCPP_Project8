@@ -3,6 +3,9 @@
 
 struct SemiTruck : public Vehicle
 {
-    Semitruck(const std::string& n);
+    SemiTruck(const std::string& n);
+
+    void setCruiserSpeed();
+    void tryToEvade();
 };
 

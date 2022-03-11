@@ -8,8 +8,8 @@ struct HighwayPatrol;
 struct Vehicle;
 struct Highway
 {
-    Highway();
-    ~Highway();
+    // Highway();
+    // ~Highway();
     void changeSpeed(int newSpeed);
     void addVehicle(Vehicle* v);
     void removeVehicle(Vehicle* v);
