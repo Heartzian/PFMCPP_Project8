@@ -7,7 +7,7 @@
 #include "Vehicle.h"
 //#include <cassert>
 
-HighwayPatrol::HighwayPatrol(const std::string& n) : Vehicle(n) {}
+HighwayPatrol::HighwayPatrol(const std::string& n) : Vehicle("Highway Patrol") {}
 
 void HighwayPatrol::scanHighway(Highway* h)
 {
