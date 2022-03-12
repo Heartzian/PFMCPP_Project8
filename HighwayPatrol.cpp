@@ -39,7 +39,7 @@ void HighwayPatrol::pullOver( Vehicle* v, bool willArrest, Highway* h )
         }
         else if(auto* motorcycle = dynamic_cast<Motorcycle*>(v))
         {
-            vehicleType = " moto ";
+            vehicleType = " motorcycle ";
         }
         else if(auto* semitruck = dynamic_cast<SemiTruck*>(v))    
         {

@@ -30,7 +30,7 @@ void Highway::addVehicleInternal(Vehicle* v)
     }
     else if (auto* motorcycle = dynamic_cast<Motorcycle*>(v))
     {
-        motorcycle->lanesplitAndRace(55);
+        motorcycle->lanesplitAndRace();
     }
     else if (auto* semitruck = dynamic_cast<SemiTruck*>(v))
     {
@@ -58,7 +58,7 @@ void Highway::removeVehicleInternal(Vehicle* v)
     }
     else if (auto* semitruck = dynamic_cast<SemiTruck*>(v))
     {
-        semitruck->setCruiserSpeed();
+        semitruck->pullOver();
     }
 }
 
