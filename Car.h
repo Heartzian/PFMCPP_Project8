@@ -1,9 +1,10 @@
 #pragma once
 
-struct Car : public Vehicle
-{
-    Car(const std::string& s);
-    void closeWindows();
+#include "Vehicle.h"
 
+struct Car : Vehicle
+{
+    Car(const std::string& n);
+    void closeWindows();
     void tryToEvade();
 };
